@@ -1,7 +1,7 @@
 #!/bin/bash
 ts="[`date "+%Y-%m-%d %H:%M:%S"`]"
 if [ $# -lt 2 ]; then
-    echo "USAGE: harvester <channel or playlist URL> <friendly name>"
+    echo "USAGE: harvester <channel or playlist URL> <friendly name> "
     exit 1
 fi
 sizebefore=`du -skh .`
