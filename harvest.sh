@@ -18,7 +18,7 @@ echo "$ts Looking for a youtube-dl upgrade..."
 cd $name
 sizebefore=`du -skh .`
 echo "$ts Starting yt harvester for $url channel in $curdir..."
-/usr/local/bin/yt-dlp $url --download-archive list.txt --ignore-errors --verbose --cookies ytcookie
+/usr/local/bin/yt-dlp $url --download-archive list.txt --ignore-errors --verbose --cookies ytcookie --write-subs  --sub-langs "en.*,de,hu" --embed-thumbnail  --embed-metadata  --embed-chapters
 echo "$ts Completed!"
 sizeafter=`du -skh .`
 echo "$ts Folder size before: $sizebefore"
