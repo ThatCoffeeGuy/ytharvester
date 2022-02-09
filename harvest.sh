@@ -35,7 +35,7 @@ echo "$ts ${info}INFO${reset}: Starting yt harvester for $url channel in $curdir
 if [[ -f $ytcookie ]]
 then
     echo "$ts ${info}INFO${reset}: Found cookie file!"
-else 
+else
     echo "$ts ${warn}INFO${reset}: Missing cookie file! yt-dlp won't be able to download all videos. Put your cookie file in the target directory: $name "
 fi
 /usr/local/bin/yt-dlp $url --download-archive list.txt --ignore-errors --verbose --cookies ytcookie --write-subs  --sub-langs "en.*,de,hu" --embed-thumbnail  --embed-metadata  --embed-chapters
