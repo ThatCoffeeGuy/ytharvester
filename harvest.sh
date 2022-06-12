@@ -28,7 +28,7 @@ else
    echo "$ts ${info}INFO${reset}: Creating directory..." && mkdir -p $name  >/dev/null 2&>1 && echo "$ts ${info}INFO${reset}: ${ok}Done!${reset}" || echo "$ts ${error}ERROR:${reset} Can't create $name directory."; exit 1
 fi
 echo "$ts ${info}INFO${reset}: Looking for a yt-dlp upgrade..."
-/usr/local/bin/yt-dlp -U && echo "$ts ${info}INFO${reset}: Exit 0" || echo "$ts ${error}ERROR${reset}} Exit not 0, something went wrong."
+#/usr/local/bin/yt-dlp -U && echo "$ts ${info}INFO${reset}: Exit 0" || echo "$ts ${error}ERROR${reset}} Exit not 0, something went wrong."
 cd $name
 sizebefore=`du -skh .`
 echo "$ts ${info}INFO${reset}: Starting yt harvester for $url channel in $curdir..."
