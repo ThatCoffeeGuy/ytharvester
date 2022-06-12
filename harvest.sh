@@ -1,4 +1,7 @@
 #!/bin/bash
+# https://github.com/ThatCoffeeGuy/ytharvester
+# v0.0.1
+
 if [ $# -ne 2 ]; then
     echo "USAGE: harvester <channel or playlist URL> <friendly name>"
     exit 1
