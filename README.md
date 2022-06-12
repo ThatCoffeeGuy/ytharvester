@@ -2,7 +2,9 @@
 
 ## Easy youtube-channel and playlist ripper using simple bash and yt-dl.
 
-### Disclamer: By no means this is a nice or finished script, I am aware of how horrendous it looks, but it works. Improvements to come! 
+### Disclamer: 
+
+By no means this is a nice or finished script, I am aware of how horrendous it looks, but it works. Improvements to come! 
 
 ### requirements: 
 
