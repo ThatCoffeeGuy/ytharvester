@@ -4,7 +4,7 @@
 
 ### requirements: 
 
-```https://github.com/yt-dlp/yt-dlp```  installed in /usr/local/bin/yt-dlp
+```[https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)```  installed in /usr/local/bin/yt-dlp
 
 ```ffmpeg```
 
