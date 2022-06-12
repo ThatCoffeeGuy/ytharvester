@@ -1,6 +1,6 @@
 # ytharvest
 
-## Easyyoutube-channel and playlist ripper using simple bash and yt-dl.
+## Easy youtube-channel and playlist ripper using simple bash and yt-dl.
 
 requirements: 
 ```/usr/bin/youtube-dl/youtube-dl```
