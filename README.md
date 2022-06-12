@@ -15,6 +15,7 @@ This will:
 
 2.) Create a list.txt in target folder, ensuring there are no duplicates removed
 
-3.) Download videos in highest avilable quality, with the following flags: ```--download-archive list.txt --ignore-errors --verbose --cookies ytcookie --write-subs  --sub-langs "en.*,de,hu" --embed-thumbnail  --embed-metadata  --embed-chapters```
+3.) Download videos in highest avilable quality, with the following flags:
+```--download-archive list.txt --ignore-errors --verbose --cookies ytcookie --write-subs  --sub-langs "en.*,de,hu" --embed-thumbnail  --embed-metadata  --embed-chapters```
 
 4.) Compare directory sizes once finished
