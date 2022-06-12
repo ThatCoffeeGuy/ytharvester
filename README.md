@@ -2,6 +2,8 @@
 
 ## Easy youtube-channel and playlist ripper using simple bash and yt-dl.
 
+### Disclamer: By no means this is a nice or finished script, I am aware of how horrendous it looks, but it works. Improvements to come! 
+
 ### requirements: 
 
 [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) installed in /usr/local/bin/yt-dlp
