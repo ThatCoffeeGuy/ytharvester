@@ -4,11 +4,11 @@
 
 ### requirements: 
 
-```[https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)```  installed in /usr/local/bin/yt-dlp
+[https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) installed in /usr/local/bin/yt-dlp
+
+[```https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid```](https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid) for ytcookie extraction in client browser
 
 ```ffmpeg```
-
-```https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid``` for ytcookie extraction in client browser
 
 
 ### Example usage:
