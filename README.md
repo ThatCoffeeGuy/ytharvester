@@ -18,7 +18,7 @@
 ### This will:
 1.) Create a folder called Shiey
 
-2.) Create a list.txt in target folder, ensuring there are no duplicates removed
+2.) Create a list.txt in target folder, ensuring there are no duplicates downloaded
 
 3.) Download videos in highest avilable quality, with the following flags:
 
