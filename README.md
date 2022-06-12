@@ -2,7 +2,8 @@
 
 ## Easy youtube-channel and playlist ripper using simple bash and yt-dl.
 
-requirements: 
+### requirements: 
+
 ```[/usr/bin/youtube-dl/youtube-dl](https://github.com/yt-dlp/yt-dlp)```  installed in /usr/local/bin/yt-dlp
 
 ```ffmpeg```
@@ -10,11 +11,11 @@ requirements:
 ```https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid``` for ytcookie extraction in client browser
 
 
-Example usage:
+### Example usage:
 
 ```./harvest.sh https://www.youtube.com/c/shiey Shiey```
 
-This will:
+### This will:
 1.) Create a folder called Shiey
 
 2.) Create a list.txt in target folder, ensuring there are no duplicates removed
