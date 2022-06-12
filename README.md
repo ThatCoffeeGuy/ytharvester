@@ -6,7 +6,7 @@
 
 By no means this is a nice or finished script, I am aware of how horrendous it looks, but it works. Improvements to come! 
 
-### requirements: 
+### Requirements: 
 
 [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) installed in /usr/local/bin/yt-dlp
 
