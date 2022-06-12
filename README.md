@@ -10,7 +10,7 @@
 
 ```ffmpeg```
 
-optional: ```git``` for colored messages (yes, I was lazy to use ASCII bash codes) 
+optional: ```git``` for colored messages (yes, I was lazy to use ANSI bash codes) 
 ### Example usage:
 
 ```./harvest.sh https://www.youtube.com/c/shiey Shiey```
