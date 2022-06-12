@@ -3,8 +3,12 @@
 ## Easy youtube-channel and playlist ripper using simple bash and yt-dl.
 
 requirements: 
-```/usr/bin/youtube-dl/youtube-dl```
-```https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid```
+```[/usr/bin/youtube-dl/youtube-dl](https://github.com/yt-dlp/yt-dlp)```  installed in /usr/local/bin/yt-dlp
+
+```ffmpeg```
+
+```https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid``` for ytcookie extraction in client browser
+
 
 Example usage:
 
