@@ -25,10 +25,11 @@ if [[ -d "$name" ]]
 then
    echo "$ts ${info}INFO${reset}: $name folder already exists!"
 else
-   echo "$ts ${info}INFO${reset}: Creating directory..." && mkdir -p $name  >/dev/null 2&>1 && echo "$ts ${info}INFO${reset}: ${ok}Done!${reset}" || echo "$ts ${error}ERROR:${reset} Can't create $name directory."; exit 1
+   echo "$ts ${info}INFO${reset}: Creating directory..." && mkdir -p $name  >/dev/null 2&>1 && echo "$ts ${info}INFO${reset}: ${ok}Done!${reset}" || echo "$ts ${error}ERROR:${reset} Can't create $name directory." exit 1
 fi
-echo "$ts ${info}INFO${reset}: Looking for a yt-dlp upgrade..."
+#echo "$ts ${info}INFO${reset}: Looking for a yt-dlp upgrade..."
 #/usr/local/bin/yt-dlp -U && echo "$ts ${info}INFO${reset}: Exit 0" || echo "$ts ${error}ERROR${reset}} Exit not 0, something went wrong."
+echo "$ts ${info}INFO${reset}: Copying cookie file!"
 cd $name
 sizebefore=`du -skh .`
 echo "$ts ${info}INFO${reset}: Starting yt harvester for $url channel in $curdir..."
@@ -36,7 +37,8 @@ if [[ -f $ytcookie ]]
 then
     echo "$ts ${info}INFO${reset}: Found cookie file!"
 else
-    echo "$ts ${warn}INFO${reset}: Missing cookie file! yt-dlp won't be able to download all videos. Put your cookie file in the target directory: $name "
+    echo "$ts ${warn}WARN${reset}: Missing cookie file! Trying to find it..."
+    cp ../$ytcookie . && echo "$ts ${info}INFO${reset}: Copied cookie file!"  || echo "$ts ${warn}WARN${reset}: Something went wrong, cookie file probaby exists!"
 fi
 /usr/local/bin/yt-dlp $url --download-archive list.txt --ignore-errors --verbose --cookies ytcookie --write-subs  --sub-langs "en.*,de,hu" --embed-thumbnail  --embed-metadata  --embed-chapters
 echo "$ts ${info}INFO${reset}: Completed!"
